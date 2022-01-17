@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mostrar_Simulacion</class>
+ <widget class="QDialog" name="Mostrar_Simulacion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1157</width>
+    <height>991</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>1141</width>
+     <height>921</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout"/>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>960</y>
+     <width>1131</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="GuardarSimulacion">
+      <property name="text">
+       <string>Guardar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EjecutarSimulacion">
+      <property name="text">
+       <string>Ejecutar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PausarSimulacion">
+      <property name="text">
+       <string>Pausar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber"/>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Dia:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="LCDDias"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SalirSimulacion">
+      <property name="text">
+       <string>Salir</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

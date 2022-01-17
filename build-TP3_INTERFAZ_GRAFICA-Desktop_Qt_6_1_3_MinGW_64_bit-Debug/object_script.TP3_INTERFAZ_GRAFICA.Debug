@@ -1,0 +1,11 @@
+debug/main.o
+debug/mainwindow.o
+debug/mostrar_simulacion.o
+debug/simulacion.o
+debug/poblacion.o
+debug/mapa.o
+debug/casillero.o
+debug/pastizal.o
+debug/gestorarchivos.o
+debug/moc_mainwindow.o
+debug/moc_mostrar_simulacion.o

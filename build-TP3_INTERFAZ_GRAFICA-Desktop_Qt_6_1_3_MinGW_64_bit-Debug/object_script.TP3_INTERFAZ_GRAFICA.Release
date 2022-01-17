@@ -1,0 +1,11 @@
+release/main.o
+release/mainwindow.o
+release/mostrar_simulacion.o
+release/simulacion.o
+release/poblacion.o
+release/mapa.o
+release/casillero.o
+release/pastizal.o
+release/gestorarchivos.o
+release/moc_mainwindow.o
+release/moc_mostrar_simulacion.o
